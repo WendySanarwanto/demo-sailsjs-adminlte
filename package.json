@@ -29,7 +29,8 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "install-all": "npm install && bower install"
   },
   "main": "app.js",
   "repository": {
