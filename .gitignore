@@ -176,3 +176,6 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# Ignore assets/vendors
+assets/vendors

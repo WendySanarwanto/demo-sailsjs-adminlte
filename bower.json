@@ -1,0 +1,21 @@
+{
+  "name": "sails-adminlte",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "wendysa"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/WendySanarwanto/demo-sailsjs-adminlte",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendors/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "AdminLTE": "admin-lte#^2.3.11"
+  }
+}
