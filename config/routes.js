@@ -70,6 +70,9 @@ module.exports.routes = {
   },
   'GET /ui/modal': {
     view: 'ui-elements/modal'
+  },
+  'GET /forms/general': {
+    view: 'forms/general'
   }
   /***************************************************************************
   *                                                                          *
