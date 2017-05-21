@@ -836,8 +836,20 @@
 
             // Activate current loaded view's submenu
             var active_view_path = sessionStorage.getItem('active_view');            
-            var sub_menu_to_activate = $('ul.treeview-menu').find('li a[href="'+active_view_path+'"]').parent();
-            sub_menu_to_activate.addClass('active');
+            var tree_menu_to_activate = $('ul.treeview-menu').find('li a[href="'+active_view_path+'"]').parent();
+            if (tree_menu_to_activate.length > 0){
+                tree_menu_to_activate.addClass('active');
+            }
+            else {
+                var sidebar_menu_to_activate = $('ul.sidebar-menu').find('li a[href="'+active_view_path+'"]').parent();
+                if (sidebar_menu_to_activate.length > 0) {
+                    var all_sidebar_menu_to_deactivate = $('ul.sidebar-menu').find('li.active.treeview');
+                    if (all_sidebar_menu_to_deactivate.length > 0){
+                        all_sidebar_menu_to_deactivate.removeClass('active');
+                    }
+                    sidebar_menu_to_activate.addClass('active');
+                }
+            }
         } );
 	</script>    
     
