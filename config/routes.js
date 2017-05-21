@@ -49,6 +49,9 @@ module.exports.routes = {
   },
   'GET /charts/flot': {
     view: 'charts/flot'
+  },
+  'GET /charts/inline': {
+    view: 'charts/inline'
   }
   /***************************************************************************
   *                                                                          *
