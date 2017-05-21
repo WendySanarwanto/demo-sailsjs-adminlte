@@ -52,6 +52,9 @@ module.exports.routes = {
   },
   'GET /charts/inline': {
     view: 'charts/inline'
+  },
+  'GET /ui/general': {
+    view: 'ui-elements/general'
   }
   /***************************************************************************
   *                                                                          *
