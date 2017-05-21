@@ -55,6 +55,9 @@ module.exports.routes = {
   },
   'GET /ui/general': {
     view: 'ui-elements/general'
+  },
+  'GET /ui/icons': {
+    view: 'ui-elements/icons'
   }
   /***************************************************************************
   *                                                                          *
