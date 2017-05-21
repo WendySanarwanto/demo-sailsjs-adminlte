@@ -61,6 +61,9 @@ module.exports.routes = {
   },
   'GET /ui/buttons': {
     view: 'ui-elements/buttons'
+  },
+  'GET /ui/sliders': {
+    view: 'ui-elements/sliders'
   }
   /***************************************************************************
   *                                                                          *
