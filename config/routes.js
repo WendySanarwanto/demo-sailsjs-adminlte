@@ -64,6 +64,9 @@ module.exports.routes = {
   },
   'GET /ui/sliders': {
     view: 'ui-elements/sliders'
+  },
+  'GET /ui/timeline': {
+    view: 'ui-elements/timeline'
   }
   /***************************************************************************
   *                                                                          *
