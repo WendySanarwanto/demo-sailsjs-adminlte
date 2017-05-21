@@ -67,6 +67,9 @@ module.exports.routes = {
   },
   'GET /ui/timeline': {
     view: 'ui-elements/timeline'
+  },
+  'GET /ui/modal': {
+    view: 'ui-elements/modal'
   }
   /***************************************************************************
   *                                                                          *

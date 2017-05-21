@@ -44,7 +44,23 @@
 
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-    
+
+    <style>
+        .example-modal .modal {
+            position: relative;
+            top: auto;
+            bottom: auto;
+            right: auto;
+            left: auto;
+            display: block;
+            z-index: 1;
+        }
+
+        .example-modal .modal {
+            background: transparent !important;
+        }
+    </style>
+
     <!--
         Stylesheets and Preprocessors
         ==============================
@@ -113,10 +129,10 @@
     <!-- Bootstrap slider -->
     <script src="/vendors/AdminLTE/plugins/bootstrap-slider/bootstrap-slider.js"></script>        
 
-    <!-- AdminLTE for demo purposes -->
-    <script src="/vendors/AdminLTE/dist/js/demo.js"></script>    
     <!-- AdminLTE App -->
-    <script src="/vendors/AdminLTE/dist/js/app.min.js"></script>    
+    <script src="/vendors/AdminLTE/dist/js/app.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="/vendors/AdminLTE/dist/js/demo.js"></script>        
   </head>
 
   <body class="hold-transition skin-blue sidebar-mini">
@@ -478,14 +494,12 @@
                     </span>
                     </a>
                     <ul class="treeview-menu">
-                    <li><a href="/ui/general"><i class="fa fa-circle-o"></i> General</a></li>
-                    <li><a href="/ui/icons"><i class="fa fa-circle-o"></i> Icons</a></li>
-                    <li><a href="/ui/buttons"><i class="fa fa-circle-o"></i> Buttons</a></li>
-                    <li><a href="/ui/sliders"><i class="fa fa-circle-o"></i> Sliders</a></li>
-                    <li><a href="/ui/timeline"><i class="fa fa-circle-o"></i> Timeline</a></li>
-                    <!--                    
-                    <li><a href="/vendors/AdminLTE/dist/pages/UI/modals.html"><i class="fa fa-circle-o"></i> Modals</a></li>
-                    -->
+                        <li><a href="/ui/general"><i class="fa fa-circle-o"></i> General</a></li>
+                        <li><a href="/ui/icons"><i class="fa fa-circle-o"></i> Icons</a></li>
+                        <li><a href="/ui/buttons"><i class="fa fa-circle-o"></i> Buttons</a></li>
+                        <li><a href="/ui/sliders"><i class="fa fa-circle-o"></i> Sliders</a></li>
+                        <li><a href="/ui/timeline"><i class="fa fa-circle-o"></i> Timeline</a></li>
+                        <li><a href="/ui/modal"><i class="fa fa-circle-o"></i> Modals</a></li>
                     </ul>
                 </li>
                 <!--                
