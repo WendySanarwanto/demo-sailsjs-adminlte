@@ -33,8 +33,8 @@ module.exports.routes = {
   ***************************************************************************/
 
   'GET /': 'HomeController.render',
-  'GET /dashboard2': 'Dashboard2Controller.render',
-  'GET /dashboard': 'DashboardController.render',
+  'GET /dashboard2': 'dashboard/Dashboard2Controller.render',
+  'GET /dashboard': 'dashboard/DashboardController.render',
   'GET /widgets': { 
     view: 'widgets'
   },
@@ -43,6 +43,9 @@ module.exports.routes = {
   },
   'GET /charts/chartjs': {
     view: 'charts/chartjs'
+  },
+  'GET /charts/morris': {
+    view: 'charts/morris'
   }
   /***************************************************************************
   *                                                                          *
