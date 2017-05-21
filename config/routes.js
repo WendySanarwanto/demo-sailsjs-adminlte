@@ -40,6 +40,9 @@ module.exports.routes = {
   },
   'GET /calendar': {
     view: 'calendar'
+  },
+  'GET /charts/chartjs': {
+    view: 'charts/chartjs'
   }
   /***************************************************************************
   *                                                                          *
