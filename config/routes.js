@@ -38,6 +38,9 @@ module.exports.routes = {
   'GET /widgets': { 
     view: 'widgets'
   },
+  'GET /calendar': {
+    view: 'calendar'
+  }
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
