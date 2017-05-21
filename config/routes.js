@@ -46,6 +46,9 @@ module.exports.routes = {
   },
   'GET /charts/morris': {
     view: 'charts/morris'
+  },
+  'GET /charts/flot': {
+    view: 'charts/flot'
   }
   /***************************************************************************
   *                                                                          *
