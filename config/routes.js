@@ -82,6 +82,9 @@ module.exports.routes = {
   },
   'GET /tables/simple': {
     view: 'tables/simple'
+  },
+  'GET /tables/data': {
+    view: 'tables/data'
   }
   /***************************************************************************
   *                                                                          *
