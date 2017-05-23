@@ -76,6 +76,9 @@ module.exports.routes = {
   },
   'GET /forms/advanced': {
     view: 'forms/advanced'
+  },
+  'GET /forms/editors': {
+    view: 'forms/editors'
   }
   /***************************************************************************
   *                                                                          *
