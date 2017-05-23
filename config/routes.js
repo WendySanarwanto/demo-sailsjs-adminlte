@@ -79,6 +79,9 @@ module.exports.routes = {
   },
   'GET /forms/editors': {
     view: 'forms/editors'
+  },
+  'GET /tables/simple': {
+    view: 'tables/simple'
   }
   /***************************************************************************
   *                                                                          *
