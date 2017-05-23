@@ -41,7 +41,5 @@
   },
   "author": "wendysa",
   "license": "",
-  "devDependencies": {
-    "sails-hook-autoreload": "^1.0.0"
-  }
+  "devDependencies": {}
 }
