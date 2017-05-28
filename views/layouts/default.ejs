@@ -569,16 +569,40 @@
                     </span>
                     </a>
                 </li>
+                <% if (typeof showMailboxTreeview === 'undefined') { %>
                 <li>
-                    <a href="/vendors/AdminLTE/dist/pages/mailbox/mailbox.html">
-                    <i class="fa fa-envelope"></i> <span>Mailbox</span>
-                    <span class="pull-right-container">
-                        <small class="label pull-right bg-yellow">12</small>
-                        <small class="label pull-right bg-green">16</small>
-                        <small class="label pull-right bg-red">5</small>
-                    </span>
+                    <a href="/mailbox/inbox">
+                        <i class="fa fa-envelope"></i> <span>Mailbox</span>
+                        <span class="pull-right-container">
+                            <small class="label pull-right bg-yellow">12</small>
+                            <small class="label pull-right bg-green">16</small>
+                            <small class="label pull-right bg-red">5</small>
+                        </span>
                     </a>
                 </li>
+                <% } else if (showMailboxTreeview) {%>
+                <li class="treeview active">
+                    <a href="#">
+                        <i class="fa fa-envelope"></i> <span>Mailbox</span>
+                        <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li>
+                            <a href="/mailbox/inbox">Inbox
+                                <span class="pull-right-container">
+                                <span class="label label-primary pull-right">13</span>
+                                </span>
+                            </a>
+                        </li>
+                        <!-- 
+                        <li><a href="compose.html">Compose</a></li>
+                        <li><a href="read-mail.html">Read</a></li>
+                        -->
+                    </ul>
+                </li>                                    
+                <% } %>
                 <!--
                 <li class="treeview">
                     <a href="#">
