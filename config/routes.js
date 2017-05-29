@@ -86,7 +86,8 @@ module.exports.routes = {
   'GET /tables/data': {
     view: 'tables/data'
   },
-  'GET /mailbox/inbox': 'mailbox/InboxController.render'
+  'GET /mailbox/inbox': 'mailbox/InboxController.render',
+  'GET /mailbox/compose': 'mailbox/ComposeController.render'
   
   /***************************************************************************
   *                                                                          *
